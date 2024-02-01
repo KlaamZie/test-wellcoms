@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/KlaamZie/test-wellcoms.git
-cd test-technique
+cd test-wellcoms
 npm install
 ```
 
