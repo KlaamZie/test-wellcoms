@@ -1,0 +1,25 @@
+{
+  "name": "tt-wellcoms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --project tsconfig.build.json",
+    "filter": "node filterDuplicates",
+    "stocks": "node getTopStocks",
+    "pair": "node findSumPair",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "babel-jest": "^29.7.0"
+  }
+}
